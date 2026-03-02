@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "audioop-lts>=0.2.2",
     "gdown>=5.2.1",
     "h5py>=3.15.1",
     "lightning>=2.6.1",
@@ -12,8 +13,11 @@ dependencies = [
     "pandas>=3.0.1",
     "pydantic>=2.12.5",
     "pydantic-settings>=2.13.1",
+    "pydub>=0.25.1",
     "rich>=14.3.3",
     "torch>=2.10.0",
+    "torchaudio>=2.10.0",
+    "torchinfo>=1.8.0",
     "torchmetrics>=1.8.2",
     "torchvision>=0.25.0",
 ]
